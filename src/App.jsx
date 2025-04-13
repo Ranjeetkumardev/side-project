@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import HeroHeader from "./components/HeroHeader";
 import WorkWith from "./components/WorkWith";
+import GridSection from "./components/GridSection";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Header />
       <HeroHeader />
       <WorkWith />
+      <GridSection />
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
