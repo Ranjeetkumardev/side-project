@@ -13,6 +13,9 @@ import UXAuditCallToAction from "./components/IfYouWantSecion";
 import WordPressWebDevelopment from "./components/WordPressWebDevelopment";
 import ECommerceExpertise from "./components/Ecommerce";
 import PortfolioSection from "./components/WorkSection";
+import HiringProcess from "./components/OutComeSection";
+import Review from "./components/Review";
+import TechAndTools from "./components/ToolsAndTech";
 
 const App = () => {
   return (
@@ -27,6 +30,9 @@ const App = () => {
       <WordPressWebDevelopment />
       <ECommerceExpertise />
       <PortfolioSection />
+      <HiringProcess />
+      <Review />
+      <TechAndTools />
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
