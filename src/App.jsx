@@ -16,6 +16,10 @@ import PortfolioSection from "./components/WorkSection";
 import HiringProcess from "./components/OutComeSection";
 import Review from "./components/Review";
 import TechAndTools from "./components/ToolsAndTech";
+import FAQ from "./components/FAQ";
+import BlogPosts from "./components/BlogPost";
+import ContactBanner from "./components/Contactbaner";
+import Services from "./components/OurServices";
 
 const App = () => {
   return (
@@ -29,10 +33,14 @@ const App = () => {
       <UXAuditCallToAction />
       <WordPressWebDevelopment />
       <ECommerceExpertise />
+      <Services />
       <PortfolioSection />
       <HiringProcess />
       <Review />
       <TechAndTools />
+      <FAQ />
+      <BlogPosts />
+      <ContactBanner />
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
