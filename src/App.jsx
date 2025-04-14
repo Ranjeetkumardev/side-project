@@ -10,6 +10,9 @@ import GridSection from "./components/GridSection";
 import UXAuditSection from "./components/Uiuxsection";
 import UXCaseStudyCard from "./components/CaseStudySection";
 import UXAuditCallToAction from "./components/IfYouWantSecion";
+import WordPressWebDevelopment from "./components/WordPressWebDevelopment";
+import ECommerceExpertise from "./components/Ecommerce";
+import PortfolioSection from "./components/WorkSection";
 
 const App = () => {
   return (
@@ -21,6 +24,9 @@ const App = () => {
       <UXAuditSection />
       <UXCaseStudyCard />
       <UXAuditCallToAction />
+      <WordPressWebDevelopment />
+      <ECommerceExpertise />
+      <PortfolioSection />
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
