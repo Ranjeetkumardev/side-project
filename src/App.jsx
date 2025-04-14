@@ -7,6 +7,9 @@ import Header from "./components/Header";
 import HeroHeader from "./components/HeroHeader";
 import WorkWith from "./components/WorkWith";
 import GridSection from "./components/GridSection";
+import UXAuditSection from "./components/Uiuxsection";
+import UXCaseStudyCard from "./components/CaseStudySection";
+import UXAuditCallToAction from "./components/IfYouWantSecion";
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
       <HeroHeader />
       <WorkWith />
       <GridSection />
+      <UXAuditSection />
+      <UXCaseStudyCard />
+      <UXAuditCallToAction />
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
