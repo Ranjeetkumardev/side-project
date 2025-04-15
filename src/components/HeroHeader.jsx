@@ -9,8 +9,8 @@ const Hero = () => {
       }}
     >
       <div className="relative z-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
-          MAD BRAIN TECHNOLOGY
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight ">
+        Designing & Developing Your Vision For Growth
         </h1>
         <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-blue-100 font-medium">
           We create stunning digital products and experiences that drive growth
