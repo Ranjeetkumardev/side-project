@@ -19,7 +19,8 @@ import TechAndTools from "./components/ToolsAndTech";
 import FAQ from "./components/FAQ";
 import BlogPosts from "./components/BlogPost";
 import ContactBanner from "./components/Contactbaner";
-import Services from "./components/OurServices";
+import ServicesSection from "./components/OurServices";
+// import Services from "./components/OurServices";
 
 const App = () => {
   return (
@@ -33,7 +34,7 @@ const App = () => {
       <UXAuditCallToAction />
       <WordPressWebDevelopment />
       <ECommerceExpertise />
-      <Services />
+      <ServicesSection />
       <PortfolioSection />
       <HiringProcess />
       <Review />
