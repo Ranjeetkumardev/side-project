@@ -10,10 +10,10 @@ const App = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <HeroHeader />
+      {/* <HeroHeader /> */}
       <main className="flex-grow">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HeroHeader />} />
         </Routes>
       </main>
       <Footer />
