@@ -15,9 +15,10 @@ const Hero = () => {
       }}
     >
       <div className="relative z-10">
-        {/* Title */}
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
-          MAD BRAIN TECHNOLOGY
+
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight ">
+          Designing & Developing Your Vision For Growth
+
         </h1>
 
         {/* Oscillating Images + Paragraph */}
