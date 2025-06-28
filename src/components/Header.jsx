@@ -15,7 +15,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-4xl md:text-5xl font-extrabold text-white tracking-wider">
-          TheMadBrains
+          DevCool
         </div>
 
         {/* Desktop Nav */}

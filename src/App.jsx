@@ -44,7 +44,7 @@ const App = () => {
       <ContactBanner />
       <main className="flex-grow">
         <Routes>
-          <Route path="/" element={<HeroHeader />} />
+          {/* <Route path="/" element={<HeroHeader />} /> */}
         </Routes>
       </main>
 

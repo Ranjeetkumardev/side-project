@@ -34,7 +34,7 @@ const ContactBanner = () => {
           {/* Email */}
           <div className="flex items-center space-x-2 bg-red-600 rounded-full px-4 py-2 cursor-pointer hover:opacity-90 transition">
             <FaEnvelope />
-            <span>@themadbrains.com</span>
+            <span>@testmail.com</span>
             <FaArrowRight />
           </div>
         </div>

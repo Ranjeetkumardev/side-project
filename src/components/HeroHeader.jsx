@@ -16,7 +16,7 @@ const Hero = () => {
     >
       <div className="relative z-10 my-auto">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
-          MAD BRAIN TECHNOLOGY
+          DEV COOL TECHNOLOGY
         </h1>
 
         {/* Oscillating Images + Paragraph */}
