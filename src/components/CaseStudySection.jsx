@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import mobileImg1 from "../assets/mobileImg1.png";
-import mobileImg2 from "../assets/mobileImg2.png";
+import mobileImg2 from "../assets/mobiImg2.png";
 import mobileImg3 from "../assets/mobileImg3.png";
 
 const UXCaseStudyCard = () => {
